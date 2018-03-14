@@ -6,13 +6,47 @@
     android:layout_height="match_parent"
     tools:context="com.brunet.tipha.applicationessai.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/logol"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bonjour"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/inscrire"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:background="@color/colorPrimary"
+                android:text="s'incrire"
+                android:textColor="@color/colorWhite"
+                />
+        </LinearLayout>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
