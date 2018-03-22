@@ -16,16 +16,17 @@ public Button sinscrire;
         setContentView(R.layout.activity_main);
 
         sinscrire = (Button) findViewById(R.id.inscrire);
-        sinscrire.setOnclickListener(
+        sinscrire.setOnClickListener(
+
                 new View.OnClickListener(){
                     @Override
                     public void onClick(View view){
-                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        startActivity(new Intent(MainActivity.this, MainActivityformulaire.class));
                     }
                 }
 
 
-        )
+        );
 
     }
 }

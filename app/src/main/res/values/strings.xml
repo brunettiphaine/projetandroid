@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">applicationessai</string>
-    <string name="bonjour">Bienvenue sur l'application moppe, cette messagerie est faite pour vous.</string>
-    <string name="inscription">Bonjour, pour utiliser l'application vous devez vous incrire en remplissant les champs suivant</string>
+    <string name="bonjour">Bienvenue sur l`application moppe, cette messagerie est faite pour vous.</string>
+    <string name="inscription">Bonjour, pour utiliser l`application vous devez vous incrire en remplissant les champs suivant</string>
 </resources>
