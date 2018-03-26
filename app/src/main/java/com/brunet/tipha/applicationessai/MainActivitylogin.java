@@ -3,6 +3,7 @@ package com.brunet.tipha.applicationessai;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -25,8 +26,8 @@ public class MainActivitylogin extends AppCompatActivity {
                     }
                 }
         );
-//        sharedPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-//        String myValue = sharedPref.getString('@+id/pseudo','');
+        sharedPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+        String myValue = sharedPref.getString('@+id/pseudo','');
 
     }
 }
