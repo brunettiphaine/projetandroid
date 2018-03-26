@@ -8,15 +8,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
-public Button sinscrire;
+public Button inscrire;
+public Button connection;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sinscrire = (Button) findViewById(R.id.inscrire);
-        sinscrire.setOnClickListener(
+        inscrire = (Button) findViewById(R.id.inscrire);
+        inscrire.setOnClickListener(
 
                 new View.OnClickListener(){
                     @Override
@@ -26,6 +27,15 @@ public Button sinscrire;
                 }
 
 
+        );
+        connection = (Button) findViewById(R.id.connection1);
+        connection.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        startActivity(new Intent(MainActivity.this, MainActivitylogin.class));
+                    }
+                }
         );
 
     }

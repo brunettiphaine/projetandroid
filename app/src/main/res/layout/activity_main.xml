@@ -38,16 +38,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:gravity="center">
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            >
             <Button
                 android:id="@+id/inscrire"
                 android:layout_width="160dp"
                 android:layout_height="70dp"
                 android:background="@color/colorPrimary"
-                android:text="s'incrire"
+                android:text="s\'incrire"
+                android:textColor="@color/colorWhite"
+                />
+            <Button
+                android:id="@+id/connection1"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:background="@color/colorPrimary"
+                android:text="connection"
                 android:textColor="@color/colorWhite"
                 />
         </LinearLayout>
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
