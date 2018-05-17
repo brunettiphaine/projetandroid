@@ -6,10 +6,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import com.github.nkzawa.socketio.client.IO;
+import com.github.nkzawa.socketio.client.Socket;
+
+import java.net.URISyntaxException;
 
 public class MainActivity extends AppCompatActivity {
 public Button inscrire;
 public Button connection;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -26,8 +26,10 @@ public class MainActivitylogin extends AppCompatActivity {
                     }
                 }
         );
-        sharedPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
-        String myValue = sharedPref.getString('@+id/pseudo','');
+//        sharedPref = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
+//        String myValue = sharedPref.getString('@+id/pseudo','');
+
+
 
     }
 }
