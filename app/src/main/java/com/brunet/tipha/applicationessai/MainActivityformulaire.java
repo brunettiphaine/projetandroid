@@ -41,5 +41,12 @@ public EditText motdepasse;
                 }
         );
 
+        EditText Pseudo = (EditText)findViewById(R.id.pseudo);
+        if( Pseudo.getText().toString().length() == 0 )
+            Pseudo.setError( "Pseudo est requis!" );
+
+        EditText Motdepasse = (EditText)findViewById(R.id.motdepasse);
+        if( Motdepasse.getText().toString().length() == 0 )
+            Motdepasse.setError( "Mot de passe est requis!" );
     }
 }
